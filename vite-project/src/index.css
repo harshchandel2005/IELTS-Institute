@@ -1,0 +1,15 @@
+/* 1️⃣ Import Google Fonts first */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+
+/* 2️⃣ Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3️⃣ Your custom styles */
+html { scroll-behavior: smooth; }
+
+/* Optional: light scrollbar polish */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb { background: #c7d2fe; border-radius: 9999px; }
+::-webkit-scrollbar-track { background: #f8fafc; }
